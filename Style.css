@@ -1,0 +1,875 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,900|Inter:400,700|Montserrat:400,700,900,600,800|Roboto:400,500|Epilogue:400,700");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-decoration: none;
+}
+
+.background {
+  background: #254330;
+  border-radius: 0px 0px 0px 80px;
+  height: 901px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1441px;
+}
+
+.background-1 {
+  background-color: var(--everglade);
+  border-radius: 0px 0px 0px 80px;
+  height: 901px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+.background-2 {
+  position: absolute;
+  width: 1441px;
+  height: 803px;
+  left: 0px;
+  top: 898px;
+
+  background: linear-gradient(
+    180deg,
+    #e2eeec -5.54%,
+    rgba(227, 239, 237, 0) 100%
+  );
+}
+
+.navbar {
+  width: 100%;
+  padding: 30px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 10px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+  padding: 10px 0;
+  background: rgb(218, 185, 39);
+}
+.navbar .max-width {
+  display: flex;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  height: 116px;
+  left: 31px;
+  object-fit: cover;
+  top: 8px;
+  width: 420px;
+}
+
+.navbar.sticky .logo a span {
+  color: #fff;
+}
+
+.navbar .menu li a {
+  display: flex;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+  text-decoration: none 
+  
+}
+
+.navbar .menu li a:hover {
+  color: rgb(218, 185, 39);
+}
+
+.home .max-width {
+  margin: auto 0 auto 40px;
+}
+
+.doe-agora {
+  color: #c3d94c;
+}
+.arvore-inicio {
+  position: absolute;
+  width: 570px;
+  height: 574px;
+  left: 735px;
+  top: 192px;
+
+  filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+.texto-1 {
+  position: absolute;
+  text-align: left;
+  width: 608px;
+  height: 264px;
+  left: 135px;
+  top: 240px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 88px;
+  color: #ffffff;
+}
+
+.texto-2 {
+  position: absolute;
+  width: 560px;
+  height: 128px;
+  left: 135px;
+  top: 595px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  color: #e6e6e6;
+}
+
+.estamos-lutando {
+  position: absolute;
+  width: 1327px;
+  height: 108px;
+  left: 61px;
+  top: 956px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35.7684px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.desmatamento1 {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  left: 138px;
+  top: 1189px;
+}
+
+.desmatamento1-1 {
+  position: absolute;
+  width: 234px;
+  height: 111px;
+  left: 246px;
+  top: 1190px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+.desmatamento2 {
+  height: 78px;
+  left: 627px;
+  object-fit: cover;
+  position: absolute;
+  top: 1198px;
+  width: 78px;
+}
+
+.desmatamento2-2 {
+  left: 720px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 1198px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+.desmatamento3 {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  left: 1035px;
+  top: 1190px;
+}
+
+.desmatamento3-3 {
+  position: absolute;
+  width: 181px;
+  height: 74px;
+  left: 1127px;
+  top: 1190px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+.desmatamento4 {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  left: 435px;
+  top: 1459px;
+}
+
+.desmatamento4-4 {
+  position: absolute;
+  width: 349px;
+  height: 74px;
+  left: 339px;
+  top: 1584px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+.desmatamento5 {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  left: 936px;
+  top: 1471px;
+}
+
+.desmatamento5-5 {
+  position: absolute;
+  width: 240px;
+  height: 74px;
+  left: 838px;
+  top: 1584px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+
+.depoimento {
+  position: absolute;
+  width: 922.41px;
+  height: 213.02px;
+  left: 278.46px;
+  top: 1887px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+
+.chico-mendes-foto {
+  position: absolute;
+  width: 67.97px;
+  height: 68.72px;
+  left: 542px;
+  top: 2106px;
+}
+
+.chico-mendes {
+  position: absolute;
+  width: 252px;
+  height: 36px;
+  left: 626px;
+  top: 2106px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.Ultimas-noticias-1 {
+  position: absolute;
+  width: 553.44px;
+  height: 49.08px;
+  left: 135px;
+  top: 2255.13px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+}
+
+.noticiashome1 {
+  position: absolute;
+  width: 275.72px;
+  height: 278.76px;
+  left: 139px;
+  top: 2366.06px;
+}
+.data-1 {
+  position: absolute;
+  width: 118.46px;
+  height: 17.67px;
+  left: 139px;
+  top: 2673.25px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #797979;
+}
+.titulo-reportagem-1 {
+  position: absolute;
+  width: 275.75px;
+  height: 137.43px;
+  left: 139px;
+  top: 2712.59px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #333333;
+}
+.conteudo-reportagem-1 {
+  position: absolute;
+  width: 206.81px;
+  height: 42.21px;
+  left: 139px;
+  top: 2875.55px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #515050;
+}
+
+#btn-1 {
+  position: absolute;
+  width: 68.94px;
+  height: 69.7px;
+  left: 139px;
+  top: 2942.3px;
+  border-radius: 50px;
+}
+
+.seta {
+  position: absolute;
+  top: 28%;
+  width: 40%;
+  left: 35%;
+  right: 40%;
+}
+
+.noticiashome2 {
+  position: absolute;
+  width: 275.72px;
+  height: 278.76px;
+  left: 437.08px;
+  top: 2366.06px;
+}
+.data-2 {
+  position: absolute;
+  width: 118.46px;
+  height: 17.67px;
+  left: 437.08px;
+  top: 2677.25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #797979;
+}
+.titulo-reportagem-2 {
+  position: absolute;
+  width: 275.75px;
+  height: 137.43px;
+  left: 437.08px;
+  top: 2712.59px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #333333;
+}
+.conteudo-reportagem-2 {
+  position: absolute;
+  width: 206.81px;
+  height: 42.21px;
+  left: 437.08px;
+  top: 2875.55px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #515050;
+}
+
+#btn-2 {
+  position: absolute;
+  width: 68.94px;
+  height: 69.7px;
+  left: 437.08px;
+  top: 2942.3px;
+  border-radius: 50px;
+}
+
+.noticiashome3 {
+  position: absolute;
+  width: 275.72px;
+  height: 278.76px;
+  left: 735.17px;
+  top: 2366.06px;
+}
+.data-3 {
+  position: absolute;
+  width: 118.46px;
+  height: 17.67px;
+  left: 735.17px;
+  top: 2677.25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #797979;
+}
+.titulo-reportagem-3 {
+  position: absolute;
+  width: 275.75px;
+  height: 137.43px;
+  left: 735.17px;
+  top: 2712.59px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #333333;
+}
+.conteudo-reportagem-3 {
+  position: absolute;
+  width: 206.81px;
+  height: 42.21px;
+  left: 735.17px;
+  top: 2875.55px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #515050;
+}
+
+#btn-3 {
+  position: absolute;
+  width: 68.94px;
+  height: 69.7px;
+  left: 735.17px;
+  top: 2942.3px;
+  border-radius: 50px;
+}
+
+.noticiashome4 {
+  position: absolute;
+  width: 275.72px;
+  height: 278.76px;
+  left: 1032.28px;
+  top: 2366.06px;
+}
+.data-4 {
+  position: absolute;
+  width: 118.46px;
+  height: 17.67px;
+  left: 1033.25px;
+  top: 2677.25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #797979;
+}
+
+.titulo-reportagem-4 {
+  position: absolute;
+  width: 275.75px;
+  height: 137.43px;
+  left: 1033.25px;
+  top: 2712.59px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #333333;
+}
+.conteudo-reportagem-4 {
+  position: absolute;
+  width: 206.81px;
+  height: 42.21px;
+  left: 1033.25px;
+  top: 2875.55px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #515050;
+}
+
+#btn-4 {
+  position: absolute;
+  width: 68.94px;
+  height: 69.7px;
+  left: 1033.25px;
+  top: 2942.3px;
+  border-radius: 50px;
+}
+
+.ajude-a-construir {
+  position: absolute;
+  width: 1384px;
+  height: 108px;
+  left: -18px;
+  top: 3077px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35.7684px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.construir-um-futuro1 {
+  position: absolute;
+  width: 563px;
+  height: 402px;
+  left: 139px;
+  top: 3204px;
+}
+
+.construir-um-futuro2 {
+  position: absolute;
+  width: 570px;
+  height: 402px;
+  left: 735px;
+  top: 3204px;
+}
+
+#btn-5 {
+  position: absolute;
+  width: 415.75px;
+  height: 117px;
+  left: 512px;
+  top: 3632px;
+  font-size: 36px;
+  font-family: "Roboto";
+  border-radius: 58.5px;
+}
+
+.inscricão {
+  position: absolute;
+  letter-spacing: 3.58px;
+  margin-top: 3660px;
+  left: 4.89%;
+  min-height: 108px;
+  width: 1327px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+
+.parceiros {
+  position: absolute;
+  letter-spacing: 3.58px;
+  margin-top: 3600px;
+  left: 4.89%;
+  min-height: 108px;
+  width: 1327px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35.7684px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.logo-parceiros {
+  position: absolute;
+  width: 1112px;
+  height: 173px;
+  left: 123px;
+  top: 3876px;
+}
+
+.background-2 {
+  position: absolute;
+  width: 1445px;
+  height: 789px;
+  left: 0px;
+  top: 4066px;
+  background: #254330;
+}
+
+.você-pode-salvar {
+  position: absolute;
+  width: 984px;
+  height: 78.57px;
+  left: 239px;
+  top: 4118.43px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56.1217px;
+  line-height: 84px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 57px;
+  margin-top: 189px;
+  min-width: 1166px;
+}
+
+.contato {
+  position: absolute;
+  width: 313px;
+  height: 38px;
+  left: 994px;
+  top: 4387px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 38px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.i-nformaes {
+  position: absolute;
+  width: 427px;
+  height: 38px;
+  left: 141px;
+  top: 4406px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 38px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.info-2 {
+  position: absolute;
+  width: 427px;
+  height: 78px;
+  left: 141px;
+  top: 4459px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.social-icon {
+  position: absolute;
+  width: 153px;
+  height: 35px;
+  left: 141px;
+  top: 4567px;
+}
+
+.social-icon-end {
+  position: absolute;
+  width: 15px;
+  height: 23px;
+  left: 994px;
+  top: 4457px;
+}
+
+.endereco {
+  position: absolute;
+  width: 282px;
+  height: 26px;
+  left: 1024px;
+  top: 4456px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.social-icon-email {
+  position: absolute;
+  width: 20px;
+  height: 23px;
+  left: 994px;
+  top: 4498px;
+}
+
+.email {
+  position: absolute;
+  width: 282px;
+  height: 26px;
+  left: 1024px;
+  top: 4497px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+
+.form-control {
+  position: absolute;
+  width: 312px;
+  height: 73px;
+  left: 994px;
+  top: 4546px;
+}
+
+#btn-6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  
+  position: absolute;
+  width: 160px;
+  height: 48px;
+  left: 994px;
+  top: 4647px;
+}
+
+.allright {
+  position: absolute;
+  width: 171px;
+  height: 23px;
+  left: 138px;
+  top: 4796px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.politica {
+  position: absolute;
+  width: 227px;
+  height: 23px;
+  left: 899px;
+  top: 4805px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.termos-de-uso {
+  position: absolute;
+  width: 136px;
+  height: 23px;
+  left: 1173px;
+  top: 4805px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+hr {
+  position: absolute;
+  width: 1340px;
+  height: 0px;
+  left: 54px;
+  top: 4762px;
+  border-color: #aaa;
+  box-sizing: border-box;
+  width: 100%;
+}
