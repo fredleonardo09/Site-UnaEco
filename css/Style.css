@@ -5,7 +5,10 @@
   padding: 0;
   box-sizing: 0;
   text-decoration: none;
+  box-sizing: border-box;
 }
+
+body { min-height: 100vh; }
 
 .background {
   background: #254330;
@@ -18,18 +21,17 @@
 }
 
 .background-1 {
-  background-color: var(--everglade);
+  position: fixed;
   border-radius: 0px 0px 0px 80px;
   height: 901px;
   left: 0;
-  position: absolute;
   top: 0;
   width: 1440px;
 }
 .background-2 {
-  position: absolute;
-  width: 1441px;
-  height: 803px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
   left: 0px;
   top: 898px;
 
@@ -873,3 +875,4 @@ hr {
   box-sizing: border-box;
   width: 100%;
 }
+

@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,900|Inter:400,700|Montserrat:400,700,900,600,800|Roboto:400,500|Epilogue:400,700");
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #254330;
+}
+
+.menu-principal {
+    background-color: #254330;
+
+}
+
+.menu-principalntc {
+    background-color: #254330;
+    height: 2500px;
+
+}
+
+.menu-principal-ultntc {
+    background-color: white;
+    height: 750px;
+}
+
+.header-1 {
+    background-color: #254330;
+    ;
+    height: 66px;
+}
+
+.logomenu {
+    height: 71px;
+    width: 250px;
+    float: left;
+    position: relative;
+}
+
+.menu ul li {
+    width: 10%;
+    left: 200px;
+    padding: 10%;
+
+}
+
+.menu li {
+    float: right;
+    padding: 18px;
+    list-style-type: none;
+
+}
+
+.menu a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 25px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+
+}
+
+.menudoe {
+    background-color: rgb(25, 155, 25);
+    font-size: 20px;
+
+}
+
+.texto-1 {
+    font-size: 50px;
+    float: left;
+    margin-top: 100px;
+    color: white;
+
+}
+
+.imgpg1 {
+    margin-top: 100px;
+}
+
+.pg1 {
+    width: 100%;
+    height: 100%;
+    background-color: #254330;
+
+}
+
+.texto-2 {
+    float: left;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 100px;
+    padding: 1%;
+    color: white;
+
+
+}
+
+.ultimas-N h1 {
+    font-size: 60px;
+    margin-top: 80px;
+    margin-left: 100px;
+    position: relative;
+    height: 20px;
+
+}
+
+.imgntc {
+    margin-top: 50px;
+    margin-left: 100px;
+    list-style: none;
+    text-decoration: none;
+    float: left;
+
+
+
+}
+
+.imgntc li {
+    float: left;
+    margin-left: 1px;
+
+}
+
+.imgntc a {
+    margin-left: 40px;
+    font-size: 25px;
+    color: black;
+    width: 350px;
+    height: 120px;
+    float: left;
+    margin-top: -40px;
+
+}
+
+.imgntc h2 {
+    font-size: 10px;
+    margin-left: 40px;
+    margin-top: 1px;
+    width: 90px;
+    height: 50px;
+}
+
+.imgntc img {
+    margin-left: 30px;
+    list-style: none;
+    text-decoration: none;
+    height: 250px;
+
+}
+
+.imgntc h3 {
+    font-size: 10px;
+    margin-left: 40px;
+    margin-right: 150px;
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+}
+
+.setantc {
+    padding: 100px;
+    margin-top: -75px;
+
+}
+
+.pgntc1 {
+    background-color: #254330;
+    color: white;
+
+}
+
+.titntc1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-left: 200px;
+    margin-top: 75px;
+    background-color: #254330;
+}
+
+.ftntc1 {
+    margin-top: 10px;
+    margin-left: 500px;
+    background-color: #254330;
+
+}
+
+.txtcmft {
+    margin-top: 25px;
+    margin-left: 650px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #254330;
+    float: left;
+
+
+}
+
+.txtcmft2 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 25px;
+    margin-left: 850px;
+    background-color: #254330;
+
+}
+
+.txtcmft3 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -34px;
+    margin-left: 1050px;
+    background-color: #254330;
+
+}
+
+.textimg1 {
+    margin-top: 15px;
+    margin-left: 180px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.4274px;
+    line-height: 29px;
+    width: 1500px;
+    background-color: #254330;
+}
+
+.outrasntc {
+    margin-left: 200px;
+    margin-top: 60px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: white;
+
+
+}
+
+.outrasntc a {
+    color: white;
+}
+
+.outrasntc h1 {
+    color: white;
+    font-size: 30px;
+
+}
+
+.outrasntc li {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    margin-top: 15px;
+
+}
+
+.outrasntc h2 {
+    list-style: none;
+    text-decoration: none;
+    height: 75px;
+    width: 20px;
+    margin-top: 15px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.outrasntc h3 {
+    list-style: none;
+    text-decoration: none;
+    height: 100px;
+    margin-top: -50px;
+    width: 450px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.salvarmundo {
+    color: white;
+    background-color: #254330;
+    height: 750px;
+
+
+}
+
+.salvarmundo h1 {
+    margin-left: 250px;
+    font-size: 120px;
+    margin-top: 50px;
+    width: 1500px;
+
+}
+
+.salvarmundo h2 {
+    margin-top: 120px;
+    margin-left: 250px;
+
+}
+
+.salvarmundo h3 {
+    width: 500px;
+    height: 5px;
+    margin-left: 250px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.salvarmundo h4 {
+    width: 500px;
+    height: 100px;
+    margin-top: -67px;
+    float: right;
+}
+
+.salvarmundo h5 {
+    width: 250px;
+    height: 100px;
+    margin-top: -35px;
+    margin-right: -250px;
+    float: right;
+}
+
+.salvarmundo h6 {
+    width: 250px;
+    height: 100px;
+    margin-top: 55px;
+    margin-right: -250px;
+    float: right;
+}
+
+.salvarmundo p {
+    float: left;
+    margin-top: 50px;
+    margin-left: 15px;
+    width: 50px;
+
+}
+
+.salvarmundo img {
+    margin-left: 230px;
+    height: 50px;
+
+
+}
+
+.emailrdp {
+    margin-top: 85px;
+    margin-right: -189px;
+    float: right;
+}
+
+.botaoins {
+    margin-top: 120px;
+    margin-right: -189px;
+    float: right;
+    background-color: greenyellow;
+}
+
+.direitos {
+    color: white;
+    float: left;
+    background-color: #254330;
+    margin-top: -150px;
+
+}
+
+.direitos h2 {
+    float: left;
+    font-size: 25px;
+    margin-left: 250px;
+}
+
+.direitos h3 {
+    float: left;
+    font-size: 25px;
+    margin-left: 500px;
+}
+
+.direitos h4 {
+    float: right;
+    margin-left: 200px;
+    font-size: 25px;
+    width: 550px;
+    margin-top: -36px;
+
+}
+
+.direitos1 {
+    color: white;
+    float: left;
+    background-color: #254330;
+    margin-top: 90px;
+
+}
+
+.direitos1 h2 {
+    float: left;
+    font-size: 25px;
+    margin-left: 250px;
+}
+
+.direitos1 h3 {
+    float: left;
+    font-size: 25px;
+    margin-left: 500px;
+}
+
+.direitos1 h4 {
+    float: right;
+    margin-left: 200px;
+    font-size: 25px;
+    width: 550px;
+    margin-top: -36px;
+
+}
+
+.ftntc2 {
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: #254330;
+
+}
+.menu{
+    margin-left: 200px;
+}
+.menu a{
+    margin-left: 15px
+}
