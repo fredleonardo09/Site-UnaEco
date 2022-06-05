@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,900|Inter:400,700|Montserrat:400,700,900,600,800|Roboto:400,500|Epilogue:400,700");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-decoration: none;
+}
+
+.background {
+  background: #254330;
+  border-radius: 0px 0px 0px 80px;
+  height: 120%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.background-1 {
+  border-radius: 0px 0px 0px 80px;
+  height: 901px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%px;
+}
+
+.faça-doacao {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+
+color: #fff; 
+
+}
+
+.navbar {
+  width: 100%;
+  padding: 30px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 10px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+  padding: 10px 0;
+  background: rgb(218, 185, 39);
+}
+.navbar .max-width {
+  display: flex;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  height: 116px;
+  left: 31px;
+  object-fit: cover;
+  top: 8px;
+  width: 420px;
+}
+
+.navbar.sticky .logo a span {
+  color: #fff;
+}
+
+.navbar .menu li a {
+  display: flex;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+  text-decoration: none 
+  
+}
+
+.navbar .menu li a:hover {
+  color: rgb(218, 185, 39);
+}
+
+.home .max-width {
+  margin: auto 0 auto 40px;
+}
+
+.doe-agora {
+  color: #c3d94c;
+}
+
+.block{
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.estamos-lutando-depoimentos{
+width: 100%; 
+background: linear-gradient(180deg, #E2EEEC -5.54%, rgba(227, 239, 237, 0) 100%);
+}
+
+h2 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+
+p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+
+color: #000000;
+
+}
+
+.conteudo-principal p{
+width: 100%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 32px;
+display: flex;
+align-items: center;
+color: #E6E6E6;
+}
+
+#footer {
+  background: #254330;;
+  padding: 0 0 30px 0;
+  color: #555555;
+  font-size: 14px;
+}
+#footer .footer-top {
+  background: #254330;;
+  padding: 60px 0 30px 0;
+}
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+#footer .footer-top h1 {
+  
+  width: 100%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56.1217px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #ffffff;
+  
+  
+
+}
+
+#footer .footer-top .footer-info h2 {
+  width: 100%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #ffffff;
+  
+}
+
+#footer .footer-top .footer-info p {
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+left: 141px;
+color: #ffffff;
+}
+
+
+
+
+.direitos p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
