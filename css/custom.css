@@ -10,8 +10,7 @@
 .background {
   background: #254330;
   border-radius: 0px 0px 0px 80px;
-  height: 130%;
-  left: 0px;
+  height: 120%;
   position: absolute;
   width: 100%;
 }
@@ -22,7 +21,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 100%px;
+  width: 100%;
 }
 
 .faça-doacao {
@@ -114,7 +113,7 @@ width: 100%;
 background: linear-gradient(180deg, #E2EEEC -5.54%, rgba(227, 239, 237, 0) 100%);
 }
 
-h2 {
+.estamos-lutando-depoimentos h2 {
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
