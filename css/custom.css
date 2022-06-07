@@ -296,8 +296,67 @@ color: #FFFFFF;
 }
 
 
+/*----------------Página de Noticias------------------------*/
+.conteudo-noticias h1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
 
+color: #FFFFFF;
 
+}
+
+.conteudo-noticias h2{
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+
+color: #FFFFFF;
+
+}
+
+.texto-noticias{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.4274px;
+  text-align: justify;
+  color: #FFFFFF;
+
+}
+
+.data-noticias{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+  
+}
+
+.conteudo-noticias a{
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #ffffff;
+  
+}
+
+.noticias-info {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #FFFFFF;
+  
+}
 
 
 
