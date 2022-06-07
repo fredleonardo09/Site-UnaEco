@@ -279,4 +279,43 @@ background: #53C351;
   background: #254330;
 }
 
+/*pagina sobre */
 
+.sobreuna{
+  color: white;
+  font-family: 'Montserrat';
+  
+}
+
+.sobreuna h1{
+  color: white; 
+  font-family: 'Montserrat';  
+  font-size: 67.4px;
+}
+.sobreuna h2{
+  font-size: 24px;
+  width: 45%;  
+  margin-left: 45%;
+  font-family: 'Montserrat'; 
+  
+}
+
+.imgsobre{
+  width: 10%;
+  height: 10%;
+  margin-top: 5%;
+
+}
+
+.sobredoar{
+  background-color: #53C351;
+  width: 10%;
+  padding: 1%;
+  color: white;
+  font-size: 200%;
+  margin-top: 100px;
+  
+}
+.paragrafo{
+  margin-top: -500px;
+}
