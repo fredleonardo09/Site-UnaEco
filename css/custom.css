@@ -273,6 +273,37 @@ background: #53C351;
 
 }
 
+/*----------------Página de Sobre------------------------*/
+
+.conteudo-sobre h1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 67.3959px;
+line-height: 82px;
+
+color: #FFFFFF;
+}
+
+.sobre-info{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+text-align: justify;
+
+color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
 /*----------------Página de doação------------------------*/
 
 .background-site {
