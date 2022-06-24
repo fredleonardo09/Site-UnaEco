@@ -1,0 +1,65 @@
+@media (min-width: 1920px) {
+  .background {
+    background: #254330;
+    border-radius: 0px 0px 0px 80px;
+    height: 89%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 574px) {
+  .background {
+    background: #254330;
+    border-radius: 0px 0px 0px 80px;
+    height: 220%;
+    width: 100%;
+  }
+
+  .noticias a {
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  #btn-1 {
+    width: 30%;
+    height: 40px;
+    align-items: center;
+    padding: 1px;
+    gap: 10px;
+    background: #53c351;
+    border-radius: 58.5px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .emailrd{
+    width: 80%;
+    height: 45px;
+  }
+  #btn-inscrição{
+    width: 90%;
+    height: 92px;
+ 
+ 
+  }
+
+  #bt-circle{
+    width: 12%;
+    height: 37px;
+    background: #57BF37;
+    border-radius: 170px;
+    border:none!important;
+    margin-bottom: 19px;
+ 
+  }
+  .seta{
+    margin-top: -1px;
+  }  
+
+
+
+
+
+}

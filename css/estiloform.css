@@ -1,0 +1,208 @@
+
+html, body {
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+body{
+    background-color: white;
+}
+
+.limita-largura {
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    width: 100%;
+    color: white;
+    background-color: #254330;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+    transition: 0.6s;
+}
+
+.cabecalho-imagem:hover {
+    transform: scale(1.1);
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-size: 90%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+.especial {
+    border: 1px solid rgb(25, 155, 25);
+    background-color: rgb(25, 155, 25);
+    border-radius: 5px;
+}
+
+.secao {
+    font-size: 100%;
+    text-align: center;
+    background-color: #254330;
+    color: white;
+    font-family: sans-serif;
+    padding: 15px;
+}
+
+.secao h1 {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 46px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 45px;
+margin-bottom: 35px;
+}
+.secao p {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.secao-form {
+    padding: 10px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    font-size: 100%;
+}
+
+.secao-form h3 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 35px;
+    color: #000000;
+}
+
+
+.secao-form p{
+    font-size: 65%;
+    margin-bottom: 55px;
+    
+}
+
+.secao-form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 55px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(228, 225, 225);
+    outline: none;
+
+}
+
+.controller-form{
+    position: relative;
+}
+
+.controller-form.success input {
+    border: 3px solid #4ECA64;
+}
+
+.controller-form.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.controller-form.success i.img-success {
+    visibility: visible;
+}
+
+.controller-form.error i.img-error {
+    visibility: visible;
+}
+
+.controller-form.error small {
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.controller-form i {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    visibility: hidden;
+}
+
+.controller-form small {
+    position: absolute;
+    font-size: 14px;
+    margin-top: 75px;
+    right: 150px;
+    visibility: hidden;
+}
+
+
+
+#btn-inscrição {
+width: 30%;
+height: 72px;
+left: 539px;
+top: 1044px;
+background: #53C351;
+border-radius: 58.5px;
+margin-bottom: 50px;
+border:none!important;
+}
+
+.secao-rodape {
+    background-color: #254330;
+    padding-top: 15px;
+    font-family: sans-serif;
+
+    
+}
+.secao-rodape h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.secao-rodape-conteudo {
+    color: white;
+    font-size: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+
+}
+
+.secao-rodape-informacoes {
+    width: 250px;
+}
+
+
+.secao-rodape-contato {
+    width: 250px
+}

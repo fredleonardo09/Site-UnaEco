@@ -7,6 +7,10 @@
   text-decoration: none;
 }
 
+.back123 {
+  background: #254330;
+}
+
 .background {
   background: #254330;
   border-radius: 0px 0px 0px 80px;
@@ -25,12 +29,12 @@
 }
 
 .faça-doacao {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 54px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
 
-color: #fff; 
+  color: #fff;
 
 }
 
@@ -52,6 +56,7 @@ color: #fff;
   padding: 10px 0;
   background: rgb(218, 185, 39);
 }
+
 .navbar .max-width {
   display: flex;
 }
@@ -82,8 +87,7 @@ color: #fff;
   font-weight: 500;
   margin-left: 25px;
   transition: color 0.3s ease;
-  text-decoration: none 
-  
+  text-decoration: none
 }
 
 .navbar .menu li a:hover {
@@ -98,7 +102,7 @@ color: #fff;
   color: #c3d94c;
 }
 
-.block{
+.block {
   margin-bottom: 100px;
   margin-top: 10px;
 }
@@ -108,87 +112,93 @@ a {
   list-style: none;
 }
 
-.estamos-lutando-depoimentos{
-width: 100%; 
-background: linear-gradient(180deg, #E2EEEC -5.54%, rgba(227, 239, 237, 0) 100%);
+.estamos-lutando-depoimentos {
+  width: 100%;
+  background: linear-gradient(180deg, #E2EEEC -5.54%, rgba(227, 239, 237, 0) 100%);
+
 }
 
 .estamos-lutando-depoimentos h2 {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 35px;
-letter-spacing: 0.1em;
-text-transform: uppercase;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
-.estamos-lutando-depoimentos p{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-align-items: center;
-color: #000000;
+.estamos-lutando-depoimentos p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  align-items: center;
+  color: #000000;
 
 }
 
-.conteudo-principal p{
-width: 100%;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 32px;
-display: flex;
-align-items: center;
-color: #E6E6E6;
+.conteudo-principal p {
+  width: 100%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #E6E6E6;
 }
 
-.data{
+.data {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  
-  color: #797979; 
+
+  color: #797979;
 }
 
-.noticias a{
-text-decoration: none;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-color: #333333;
+.noticias a {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #333333;
 
 }
 
-.noticias p{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 20px;
-margin-top: 15px;
-color: #515050;
+.noticias p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: 15px;
+  color: #515050;
 }
 
 #footer {
-  background: #254330;;
+  background: #254330;
+  ;
   padding: 0 0 30px 0;
   color: #555555;
   font-size: 14px;
 }
+
 #footer .footer-top {
-  background: #254330;;
+  background: #254330;
+  ;
   padding: 60px 0 30px 0;
 }
+
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
 }
+
 #footer .footer-top h1 {
-  
+
   width: 100%;
   font-family: 'Poppins';
   font-style: normal;
@@ -200,7 +210,12 @@ color: #515050;
 
 }
 
-.block-footer{
+.emailrd {
+  width: 130%;
+  height: 45px;
+}
+
+.block-footer {
   margin-bottom: 130px;
   margin-top: 10px;
 }
@@ -214,19 +229,19 @@ color: #515050;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   color: #ffffff;
-  
+
 }
 
 #footer .footer-top .footer-info p {
-width: 100%;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-color: #ffffff;
+  width: 100%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  color: #ffffff;
 }
 
-.direitos p{
+.direitos p {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -237,89 +252,92 @@ color: #ffffff;
 
 }
 
-#btn-1{
+#btn-1 {
   width: 413px;
   height: 117px;
   align-items: center;
-  padding: 12px;
+  padding: 32px;
   gap: 10px;
   background: #53C351;
   border-radius: 58.5px;
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 42px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
 }
 
-#btn-2{
-align-items: center;
-padding: 12px;
-gap: 10px;
-width: 140px;
-height: 48px;
-left: 994px;
-top: 4647px;
-background: #53C351;
-border-radius: 8px; 
+#btn-2 {
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 140px;
+  height: 48px;
+  left: 994px;
+  top: 4647px;
+  background: #53C351;
+  border-radius: 8px;
 }
 
-#bt-circle{
-border-radius: 38px;
-width: 68.94px;
-height: 69.7px;
-background: #53C351;
-  
+#bt-circle {
+  border-radius: 38px;
+  width: 68.94px;
+  height: 69.7px;
+  background: #53C351;
 
+}
+
+.seta {
+  margin-top: 10px;
 }
 
 /*----------------Página de Sobre------------------------*/
 
-.conteudo-sobre h1{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 800;
-font-size: 67.3959px;
-line-height: 82px;
+.conteudo-sobre h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 67.3959px;
+  line-height: 82px;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
-.sobre-info{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-text-align: justify;
+.sobre-info {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: justify;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 
 /*----------------Página de Noticias------------------------*/
-.conteudo-noticias h1{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 44px;
+.conteudo-noticias h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
 
-color: #FFFFFF;
-
-}
-
-.conteudo-noticias h2{
-font-family: 'Epilogue';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-
-color: #FFFFFF;
+  color: #FFFFFF;
 
 }
 
-.texto-noticias{
+.conteudo-noticias h2 {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #FFFFFF;
+
+}
+
+.texto-noticias {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -329,24 +347,24 @@ color: #FFFFFF;
 
 }
 
-.data-noticias{
+.data-noticias {
   font-family: 'Epilogue';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
   color: #FFFFFF;
-  
+
 }
 
-.conteudo-noticias a{
+.conteudo-noticias a {
   text-decoration: none;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
   color: #ffffff;
-  
+
 }
 
 .noticias-info {
@@ -355,12 +373,9 @@ color: #FFFFFF;
   font-weight: 700;
   font-size: 15px;
   color: #FFFFFF;
-  
+  margin-top: 10px;
+
 }
-
-
-
-
 
 
 /*----------------Página de doação------------------------*/
@@ -371,41 +386,69 @@ color: #FFFFFF;
 
 /*pagina sobre */
 
-.sobreuna{
+.sobreuna {
   color: white;
   font-family: 'Montserrat';
-  
+
 }
 
-.sobreuna h1{
-  color: white; 
-  font-family: 'Montserrat';  
+.sobreuna h1 {
+  color: white;
+  font-family: 'Montserrat';
   font-size: 67.4px;
 }
-.sobreuna h2{
+
+.sobreuna h2 {
   font-size: 24px;
-  width: 45%;  
+  width: 45%;
   margin-left: 45%;
-  font-family: 'Montserrat'; 
-  
+  font-family: 'Montserrat';
+
 }
 
-.imgsobre{
+.imgsobre {
   width: 10%;
   height: 10%;
   margin-top: 5%;
 
 }
 
-.sobredoar{
+.sobredoar {
   background-color: #53C351;
   width: 10%;
   padding: 1%;
   color: white;
   font-size: 200%;
   margin-top: 100px;
-  
+
 }
-.paragrafo{
+
+.paragrafo {
   margin-top: -500px;
+}
+
+.card {
+  width: 100%;
+  height: 460px;
+  border-radius: 38px;
+
+}
+
+#texto-info-doacao1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 100px;
+}
+
+#btn-circle {
+  align-items: center;
+  width: 197px;
+  height: 37px;
+  background: #57BF37;
+  border-radius: 50px;
+  border: none !important;
+
 }
